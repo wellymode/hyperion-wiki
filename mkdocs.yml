@@ -1,0 +1,14 @@
+site_name: hyperion-wiki
+theme:
+  name: material
+  language: ru
+  palette:
+    scheme: slate # Тёмная тема по умолчанию
+    primary: indigo
+nav:
+  - 'Главная': welcome.md
+  - 'Правила': rules.md
+  - 'Плагины':
+      - 'Защита от гриферства': plugins/coreprotect.md
+      - 'Варка напитков': plugins/breweryx.md
+      - 'Динамическая карта': plugins/dynmap.md
